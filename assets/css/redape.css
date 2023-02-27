@@ -1,0 +1,34 @@
+.rodape {
+    align-items: center;
+    background: var(--cor-primeira);
+    color: var(--cor-banca);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-secundaria);
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: space-between;
+    padding: .5em;
+    
+    
+}
+.rodape__container__icone-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1em ;
+}
+
+
+
+.rodape__container-bloco-links {
+    display: flex;
+    justify-content: center;
+    gap: .4em;
+    padding:.5em 0 1em 0;
+}
+
+.rodape__container-descricao {
+    text-align: center;
+}
