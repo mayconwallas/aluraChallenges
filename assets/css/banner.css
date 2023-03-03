@@ -1,0 +1,11 @@
+.banner__cabecalho {
+    width: 100%;
+    height: 270px;
+    background: url('../img/banner-home.svg');
+}
+
+.banner__rodape {
+    width: 100%;
+    height: 338px;
+    background: url('../img/Frame\ 1.svg');
+}
