@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>AluraDEV</title>
+</head>
+
+<body>
+    <header class="header__container">
+        <img src="./assets/Logo.svg" alt="logo aluraDev">
+        <div>
+            <img src="./assets/Font Awesome Icon.svg" alt="logo aluraDev">
+            <img src="./assets/Vector.svg" alt="logo aluraDev">
+        </div>
+    </header>
+
+    <main class="main-container">
+        <section>
+            <div>
+                <img src="./assets/mac_buttons.svg" alt="3 bolas 1 vermelha 1 amarela e 1 verde">
+                <pre wrap="">
+const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+
+const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+
+const unfold = (f, seed) => {
+  const go = (f, seed, acc) => {
+    const res = f(seed)
+    return res ? go(f, res[1], acc.concat([res[0]])) : acc
+  }
+  return go(f, seed, [])
+}
+                </pre>
+            </div>
+        </section>
+        <button>Visualizar com o highlight</button>
+
+    </main>
+</body>
+
+</html>
